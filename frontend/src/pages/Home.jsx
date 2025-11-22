@@ -15,7 +15,7 @@ export default function Home({ dark, setDark }) {
   const [actionLoading, setActionLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API = "http://192.168.1.2:5000/api/tasks";
+  const API = "http://localhost:5000/api/tasks";
 
   const authHeader = {
     Authorization: `Bearer ${token}`,
